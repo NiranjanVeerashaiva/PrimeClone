@@ -7,7 +7,7 @@ const WatchMovie = () => {
     let [Movie, setMovie] = useState([])
     useEffect(() => {
         let fetchdata = async () => {
-            let response = await axios.get('http://localhost:3001/movie')
+            let response = await axios.get('https://primeclone.onrender.com/movie')
             let data = response.data
             setMovie(data)
         }
@@ -17,7 +17,7 @@ const WatchMovie = () => {
     let submit=(id)=>{
         Movie.filter((x)=>{
             if(x._id==id){
-                axios.post('http://localhost:3001/favMovie',x).then((res)=>{
+                axios.post('https://primeclone.onrender.com/favMovie',x).then((res)=>{
                     alert(res.data.message)
                 })
             }

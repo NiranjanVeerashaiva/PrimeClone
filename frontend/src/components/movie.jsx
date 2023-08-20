@@ -6,7 +6,7 @@ const Movies = () => {
     let [Movie, setMovie] = useState([])
     useEffect(() => {
         let fetchdata = async () => {
-            let response = await axios.get('http://localhost:3001/movie')
+            let response = await axios.get('https://primeclone.onrender.com/movie')
             let data = response.data
             setMovie(data)
         }

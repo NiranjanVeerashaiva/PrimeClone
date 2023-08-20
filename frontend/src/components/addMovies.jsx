@@ -14,7 +14,7 @@ const AddMovies = () => {
     let submit=(a)=>{
         a.preventDefault()
         let data={movie:movie.current.value,gerne:gerne.current.value,imageURL:imageURL.current.value,year:year.current.value,description:description.current.value,IMDb:IMDb.current.value,time:time.current.value,quality:quality.current.value,}
-        axios.post('http://localhost:3001/addMovie',data).then((res)=>{
+        axios.post('https://primeclone.onrender.com/addMovie',data).then((res)=>{
             alert(res.data.message)
         })
     }

@@ -6,7 +6,7 @@ const Favorite = () => {
     let [fav,setfav]=useState([])
     useEffect(()=>{
         let fetchdata=async()=>{
-            let response=await axios.get('http://localhost:3001/favorite')
+            let response=await axios.get('https://primeclone.onrender.com/favorite')
             let data=await response.data
             setfav(data)
         }
