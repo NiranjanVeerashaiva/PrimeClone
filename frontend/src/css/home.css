@@ -1,0 +1,109 @@
+.body1{
+    background:linear-gradient(to right ,#000 40%, transparent 80%), url(https://akm-img-a-in.tosshub.com/aajtak/images/story/202207/amazon_prime_video-sixteen_nine.jpg?size=948:533);
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1{
+    margin-left:100px;
+    transform: translateY(70px);
+    width: 600px;
+    font-size: larger;
+    font-weight: 300;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+}
+.heading2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.body1 button{
+    height: 35px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(27, 147, 180);
+}
+
+.body2{
+    background:linear-gradient(to left ,#000 40%, transparent 80%), url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/03/best-crime-shows-amazon-prime-video.jpg);
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body2 button{
+    height: 35px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(27, 147, 180);
+}
+.text2{
+    margin-left:550px;
+    transform: translateY(70px);
+    width: 650px;
+    font-size: larger;
+    font-weight: 300;
+}
+.body3{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right button{
+    background:linear-gradient(to right,rgb(33, 33, 158) ,rgb(73, 82, 146)); 
+    height: 100px;
+    width: 150px;
+    margin: 5px 5px;
+    border: none;
+    color: white;
+}
+.right button:hover{
+    transform: scale(1.05);
+}
+.body3 p{
+    color: black;
+    
+    line-height: 40px;
+    font-weight: 300;  
+}
+.body4{
+    background:linear-gradient(to left ,#000 40%, transparent 80%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbp0zngntX-iti_RT0BdE0nxQ8CdUUubrgVQ&usqp=CAU);
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text4{
+    margin-left:550px;
+    transform: translateY(70px);
+    width: 650px;
+    font-size: larger;
+    font-weight: 300;
+}
+.text4 button{
+    height: 35px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(27, 147, 180);
+}
+.body3 .left{
+    padding: 0px 30px;
+    
+}
+
+

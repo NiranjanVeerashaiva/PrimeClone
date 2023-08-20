@@ -1,0 +1,26 @@
+ .catagories{
+    margin-top: -10px;
+    background-color: black;
+    display: flex;
+    padding-left:20px ;
+    height: 100vh;
+}
+.catagories img{
+    
+    height: 150px;
+    width: 250px;
+}
+.catagories h3{
+    color: white;
+    transform: translate(10px);
+    font-size: 20px;
+}
+ .catagories img:hover{
+    transform: scale(1.3);
+    transition: 1s;
+    z-index: 2;
+}  
+.cata{
+    width: 250px;
+    margin: 20px 10px;
+}

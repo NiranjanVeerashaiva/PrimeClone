@@ -1,0 +1,32 @@
+.AddMovies{
+    background-image: url(https://media.istockphoto.com/id/1268669532/vector/file-transfer-on-notebook-concept-could-syncing-program-for-remote-connection-between.jpg?s=612x612&w=0&k=20&c=3NGVYFh3wsgsyo0pHTrMID97PBao9pEqyFRk180v5hA=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.add{
+    transform: translateY(10px);
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    margin-left: 350px;
+     background-color: rgba(0, 0, 0, 0.458);
+     box-shadow: 5px 10px 10px black;
+}
+.add input{
+    background-color: white;
+    width: 300px;
+    margin: 10px 0px;
+    border: none;
+}
+.add form{
+    transform: translateY(20px);
+    padding: 0px 20px;
+}
+.add button{
+    background-color: rgb(33, 164, 33);
+    border: none;
+    width: 150px;
+    height: 30px;
+}

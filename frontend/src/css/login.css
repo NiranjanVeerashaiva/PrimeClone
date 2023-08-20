@@ -1,0 +1,37 @@
+.login{
+    background-image: url(https://thumbs.dreamstime.com/b/landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.data a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+}
+.data{
+    transform: translateY(150px);
+    width: 400px;
+   height: 200px;
+   text-align: center;
+ margin-left: 400px;
+ background-color: rgba(0, 0, 0, 0.458);
+ box-shadow: 5px 5px 5px black;
+}
+.data input{
+    background-color: rgba(127, 255, 212, 0.284);
+    width: 300px;
+    margin: 10px 0px;
+    border: none;
+}
+.data form{
+    transform: translateY(20px);
+}
+.data button{
+    background-color: rgb(33, 164, 33);
+    border: none;
+    width: 150px;
+    height: 30px;
+}
