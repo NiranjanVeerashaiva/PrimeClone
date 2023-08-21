@@ -6,7 +6,7 @@ const path=require('path')
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-app.use(cors())
+app.use(cors({origin:"https://primeclone.onrender.com"}))
 app.use(express.static(path.join(__dirname,'./frontend/build')))
 
 
