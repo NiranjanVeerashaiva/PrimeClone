@@ -3,6 +3,7 @@ const mongoose=require('mongoose')
 const cors=require('cors')
 const app=express()
 const path=require('path')
+const PORT=3001
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
@@ -118,6 +119,6 @@ app.get('*',function(req,res){
     res.sendFile(path.join(__dirname,'./frontend/build/index.html'))
 })
 
-app.listen(3001,()=>{
+app.listen(PORT,()=>{
     console.log("connected to port 3001");
 })
