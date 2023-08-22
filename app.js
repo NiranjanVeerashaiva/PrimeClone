@@ -7,7 +7,7 @@ const PORT=3001
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-app.use(cors({origin:"https://primeclone.onrender.com"}))
+app.use(cors())
 app.use(express.static(path.join(__dirname,'./frontend/build')))
 
 
