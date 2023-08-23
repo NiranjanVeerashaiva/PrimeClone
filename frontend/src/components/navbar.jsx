@@ -19,7 +19,7 @@ const Navbar = () => {
             <div class="dropdown">
                 <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Store</a>
                 <ul class="dropdown-menu">
-                    <li><Link class="dropdown-item" href="#">ALl</Link></li>
+                    <li><Link class="dropdown-item" href="#">ALL</Link></li>
                     <li><Link class="dropdown-item" href="#">Rent</Link></li>
                     <li><Link class="dropdown-item" href="#">Channels</Link></li>
                 </ul>
