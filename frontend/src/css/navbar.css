@@ -9,6 +9,9 @@
 .navbar p{
     transform: translateY(7px);
 }
+.navbar .middle{
+    display: flex;
+}
 .btn{
     background-color: black;
     border: none;

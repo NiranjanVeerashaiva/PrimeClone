@@ -6,6 +6,7 @@ const Navbar = () => {
             <div className="logo">
                 <Link to="/home">prime video</Link>
             </div>
+            <div className="middle">
             <div class="dropdown">
                 <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                 <ul class="dropdown-menu ">
@@ -24,9 +25,6 @@ const Navbar = () => {
                     <li><Link class="dropdown-item" href="#">Channels</Link></li>
                 </ul>
             </div>
-            <div className="tv">
-            <p>Live TV</p>
-            </div>
             <div class="dropdown">
                 <a class="btn btn-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
                 <ul class="dropdown-menu">
@@ -36,6 +34,10 @@ const Navbar = () => {
                     <li><Link to="/comedy" class="dropdown-item" href="#">Comedy</Link></li>
 
                 </ul>
+            </div>
+            <div className="tv">
+            <p>Live TV</p>
+            </div>
             </div>
             <div className="LS">
             <span class="material-symbols-outlined text-info">search</span>
